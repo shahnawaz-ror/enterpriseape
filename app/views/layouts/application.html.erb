@@ -9,6 +9,14 @@
   </head>
 
   <body>
-    <%= yield %>
+  <%= link_to "Home", root_path %>
+  <%= link_to "About us", welcome_about_path %>
+  <%= link_to "Contact", welcome_contact_path %>
+  <%= link_to "Feature", welcome_features_path %>
+  <%= link_to "FAQs", welcome_faq_path %>
+  <%= link_to "Pricing", welcome_pricing_path %>
+  <%= link_to "Invoices",invoices_path %>
+  <%= link_to "login", root_path %>
+      <%= yield %>
   </body>
 </html>
